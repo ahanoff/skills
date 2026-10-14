@@ -1,0 +1,23 @@
+{
+  "name": "ahanoff-skills",
+  "description": "Agent Skills for AWS, Pulumi and platform engineering runbooks",
+  "owner": {
+    "name": "Akhan Zhakiyanov",
+    "url": "https://ahanoff.dev"
+  },
+  "plugins": [
+    {
+      "name": "aws-rds",
+      "source": "./",
+      "description": "Runbooks for Amazon RDS: PostgreSQL major version upgrades with Blue/Green deployments, Pulumi state reconciliation",
+      "version": "1.0.0",
+      "author": {
+        "name": "Akhan Zhakiyanov"
+      },
+      "homepage": "https://ahanoff.dev",
+      "repository": "https://github.com/ahanoff/skills",
+      "keywords": ["aws", "rds", "postgresql", "blue-green", "pulumi"],
+      "skills": ["./skills/rds-postgres-major-upgrade"]
+    }
+  ]
+}
